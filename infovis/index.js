@@ -54,7 +54,6 @@ Promise.all([
             }
 
             if (matchedArtist) {
-                localStorage.setItem("currentArtist", matchedArtist); // Save to localStorage
                 updateMap(matchedArtist);
                 dropdown.property("value", matchedArtist);
             }
