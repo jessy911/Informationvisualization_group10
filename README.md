@@ -1,6 +1,7 @@
 # Informationvisualization_group10
 
-author(s): Anna Gradnitzer, Markus Renger, Jessica Hieb \n 
+author(s): Anna Gradnitzer, Markus Renger, Jessica Hieb 
+
 date: 15.01.2025
 
 which toolkits / external libraries are being used (including version & license information)
