@@ -52,7 +52,7 @@ d3.csv("data/artvis_dump_NEW.csv").then(function (data) {
 
     d3.select("#searchButton").on("click", function () {
         const currentArtist = dropdown.property("value");
-        window.location.href = "map.html";
+        window.location.href = "index.html";
     });
 
     d3.select("body")
@@ -64,7 +64,7 @@ d3.csv("data/artvis_dump_NEW.csv").then(function (data) {
         .style("margin-left", "20px")
         .style("background-color", "skyblue")
         .on("click", function (event, d) {
-            window.location.href = "map.html";
+            window.location.href = "index.html";
         });
 
     // Function to create a bar chart with tooltip
