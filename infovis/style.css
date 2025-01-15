@@ -1,0 +1,9 @@
+div.tooltip {
+    position: absolute;
+    background-color: lightgray;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 12px;
+    visibility: hidden; /* Initially hidden */
+}
